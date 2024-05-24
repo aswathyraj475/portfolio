@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+        #portfolio {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        #portfolio h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .card {
+            margin: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,255,1.9);
+        }
+        .card-title {
+            font-size: 1.25em;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .card-text {
+            margin-bottom: 0.5em;
+        }
+        .card-text.year {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .card-text.school {
+            font-size: 1em;
+            color: #6c757d;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Aswathy portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav> -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Aswathy Raj</span>
+            </h1>
+            <p class="header-subtitle">Full Stack Developer</p>
+
+            <a class="btn btn-primary" href="#portfolio">Visit My Works</a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="./Photo.jpg" class="about-img" style="width: 300px;">
+                </div>
+                <div class="about-caption">
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p style="text-align: justify;">
+                        After graduating and with a deep passion for coding, I am thrilled to kickstart my journey as a Python Developer.
+My academic background, along with hands-on projects and internships, has equipped me with a solid
+understanding of Python programming and its application in software development. I have honed my problem-
+solving skills by tackling complex coding challenges and troubleshooting issues. I excel at collaborating with
+cross-functional teams and effectively communicating technical concepts due to my strong communication
+skills.Furthermore, I have a keen interest in web development and experience with object-relational mapping
+(ORM),making me well-equipped to contribute to dynamic projects in these areas.
+                    </p>
+                    <a class="btn-rounded btn btn-outline-primary mt-4" href="./resume.pdf">View CV</a>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+<section id="portfolio">
+    <div class="container text-center">
+        <h1>Education</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">HIGH SCHOOL</h5>
+                        <p class="card-text school">Jai Rani EMHSS Thodupuzha</p>
+                        <p class="card-text year">2011</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                   <div class="card-body">
+                        <h5 class="card-title">HIGHER SECONDARY</h5>
+                        <p class="card-text school">Jai Rani EMHSS Thodupuzha</p>
+                        <p class="card-text year">2013</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">B TECH</h5>
+                        <p class="card-text school">Viswajyothi College of Engineering</p>
+                        <p class="card-text year">2017</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                   <div class="card-body">
+                        <h5 class="card-title">Python Django</h5>
+                        <p class="card-text school">Luminar Technolab Kochi</p>
+                        <p class="card-text year">2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">My Works</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/maid.jpg" class="portfolio-card-img" style="width: 400px;height:300px;border-radius:10px;">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>House-Maid management system</h5>
+                                    <p class="font-weight-normal">The Maid Management System developed using Python and
+                                        Django is a web-based application designed to streamline the
+                                        management of maids or domestic helpers</p>
+                                    <button class="btn btn-outline-success" style="border-radius: 10px;" onclick="window.location.href='https://github.com/aswathyraj475/housemaid.git'">Git link</button>
+                                    
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/spare.avif" class="portfolio-card-img" style="width: 400px;height:300px;">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Spare-parts management system</h5>
+                                    <p class="font-weight-normal">The Spare Parts Management System built with a REST API is a
+                                        web-based application designed to facilitate the efficient management of spare parts inventory</p>
+                                    <button class="btn btn-outline-success" style="border-radius: 10px;" onclick="window.location.href='https://github.com/aswathyraj475/spare-parts-management.git'">Git link</button>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/interview.avif" class="portfolio-card-img" style="width: 400px;height:300px;">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Interview-Confidence</h5>
+                                    <p class="font-weight-normal">The project is a python django web framework and art of
+                                        machine learning ,html ,css ,javascript. It is a motion detection application and the Confidence level is determined by facial movement using Opencv,
+                                        CNN-Tensorflow,Keras.</p>
+                                    <button class="btn btn-outline-success" style="border-radius: 10px;" onclick="window.location.href='https://github.com/aswathyraj475/interviewconfidence.git'">Git link</button>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+
+
+    <!-- contact section -->
+ <section id="portfolio">
+    <div class="container text-center">
+        <h1>Contact</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Place</h5>
+                        <p class="card-text school">Kochi,India</p>
+                        <i class="fa-solid fa-location-dot" style="font-size: 36px;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                   <div class="card-body">
+                        <h5 class="card-title">Contact Number</h5>
+                        <p class="card-text school">9544773702</p>
+                       <i class="fa-solid fa-phone" style="font-size: 36px;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text school">aswathyraj475@gmail.com</p>
+                        <i class="fa-regular fa-envelope" style="font-size: 36px;"></i>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Whatsapp</h5>
+                        <p class="card-text school">9544773702</p>
+                       <a href="https://wa.link/aj69l2" class="link">
+                    <i class="fab fa-whatsapp" style="font-size: 36px;"></i>
+                        </a>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Github</h5>
+                        <p class="card-text school">Aswathy Raj</p>
+
+                        <a href="https://github.com/aswathyraj475" class="link">
+                     <i class="fa-brands fa-github" style="font-size: 36px;"></i>
+                             <i class=""></i>
+                        </a>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                   <div class="card-body">
+                        <h5 class="card-title">Linkedin</h5>
+                        <p class="card-text school">Aswathy Raj</p>
+                       <a href="www.linkedin.com/in/aswathy-raj-379839169" class="link">
+                    <i class="fa-brands fa-linkedin" style="font-size: 36px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
